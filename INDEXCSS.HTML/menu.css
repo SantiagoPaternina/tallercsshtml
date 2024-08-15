@@ -1,0 +1,42 @@
+.logo img{
+    width: 70px;
+}
+
+.menu{
+    background-color: rgb(0, 35, 133);
+    border-bottom: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlaces ul{
+    list-style: none; /*quitar o poner viñetas*/
+    display: flex;
+}
+
+.enlaces ul li{
+    margin-left: 20px;
+}
+.enlaces ul li a{
+    text-decoration: none; /*quitar o poner estilo al texto*/
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    text-transform: uppercase; /*poner en mayuscula*/
+    font-weight: bold; /*poner en negrita*/
+    font-size: 12px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botones a{
+    text-decoration: none;
+    color: black ;
+    background-color: rgb(211, 172, 0);
+    padding: 5px 7px;
+    margin-right: 5px;
+}
